@@ -1,0 +1,57 @@
+section h1{
+    color: #389393;
+}
+
+header{
+    background-color: #fa7f72;
+}
+body{
+    background-color: #ebebeb;
+}
+
+a,
+a:focus,
+a:hover {
+  color: black;
+}
+.blue:hover,
+.blue:focus {
+  color: blue;
+}
+
+/* header contact and social media */
+.social{
+    padding-left: 15px;
+
+}
+.position{
+padding-left: 15px;
+
+}
+.name{
+padding-left: 15px;
+}
+
+.container-left{
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+/* Projects */
+.project-logo{
+    padding-top: 1rem;
+}
+
+
+/* skills section */
+.skills-title{
+font-weight: bold;
+}
+
+.bottom-content
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fa7f72;
+}

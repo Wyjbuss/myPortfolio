@@ -18,9 +18,7 @@ app.get('/', function(req, res) {
 app.get('/resume', function(req, res) {
 	res.render(`resume.ejs`)
 });
-app.get('/contact', function(req, res) {
-	res.render(`contact.ejs`)
-});
+
 
 
 

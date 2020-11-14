@@ -1,4 +1,26 @@
 <%- include('partials/header') %>
 
 
+    <form action="/" method="post" class="form-signin">
+          <!-- The image for the logo "img" -->
+          <!-- insert own logo -->
+          <!-- <img class="mb-4" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
+          <h1>Contact Me</h1>
+          <!-- lable for screen readers -->
+          <label for="firstName" class="sr-only">first name</label>
+          <input type="text" id="firstName" name="firstName" class="form-control top" placeholder="First Name" required>
+
+          <label for="lastName" class="sr-only">last name</label>
+          <!-- the name is the thing that gets to the server on the post request "req" -->
+          <input type="text" id="lastName" name="lastName" class="form-control middle" placeholder="Last Name" required>
+
+          <label for="email" class="sr-only">email</label>
+          <input type="email" id="email" name="email" class="form-control bottom" placeholder="Email" required>
+
+
+         <br>
+          <button class="btn btn-lg btn-secondary btn-block" type="submit">Send</button>
+          <p class="mt-5 mb-3 text-muted">&copy; WyCo</p>
+      </form>
+
 <%- include('partials/footer') %>
