@@ -14,10 +14,14 @@ a:focus,
 a:hover {
   color: black;
 }
-.blue:hover,
-.blue:focus {
-  color: blue;
+.orangeLink{
+    color: #fa7f72;
 }
+.linkOnHover:hover,
+.linkOnHover:focus{
+    color: #389393;
+}
+
 
 /* header contact and social media */
 .social{
